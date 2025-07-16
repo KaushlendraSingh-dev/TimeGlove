@@ -1,0 +1,137 @@
+body{
+    background-image: url(bg.jpg);
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+html, body {
+    background-image: url(bg.jpg);
+  height: 100%;
+  width: 100%;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: black;
+  color: white;
+}
+.site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100%;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.2);  
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  flex-wrap: wrap;
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo-img {
+  width: 32px;
+  height: 32px;
+  margin-right: 0.5rem;
+  border-radius: 50%;
+}
+
+.logo-text {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: white;
+  text-shadow: 1px 1px 5px #000;
+}
+
+.nav-links {
+    margin-right: 50px;
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.nav-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+  white-space: nowrap;
+}
+
+.nav-links a:hover {
+  color: #00ffe0;
+}
+
+
+
+button{
+    background-color: #a5d6a7;
+    padding: 6px 6px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer; 
+    font-weight: bold;
+   
+}
+button:hover{
+    background-color:  darkgreen;
+    color: white;
+    width: 100px;
+    height: 40px;
+
+
+}
+#logo{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    align-items: flex-start;
+}
+#clock{
+    padding-top: 100px;
+}
+#about {
+    padding: 20px;
+    background-color: rgba(60, 100, 43, 0.875);
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
+#early {
+    padding: 20px;
+    background-color: rgba(0, 128, 0, 0.348);
+    border-radius: 10px;
+    max-width: 100%;
+    margin: 20px auto;
+    text-align: center;
+}
+#early:hover{
+    background-color: green;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: scale(1.02);
+    transition: all 0.3s ease;
+}
+#farming{
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.875);
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 20px auto;
+}
+#about:hover{
+    background-color: rgb(14, 144, 7);
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: scale(1.02);
+    transition: all 0.3s ease;
+}

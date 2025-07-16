@@ -1,0 +1,121 @@
+
+.contact-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  background: rgba(40, 54, 24, 0.9);
+}
+
+.logo-button {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  transition: transform 0.3s;
+}
+
+.logo-button:hover {
+  transform: scale(1.05);
+}
+
+.logo-img {
+  width: 50px;
+  height: 50px;
+}
+
+.back-button {
+  padding: 0.5rem 1rem;
+  background: rgba(200, 213, 185, 0.2);
+  color: #e8f4ea;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: all 0.3s;
+  border: 1px solid rgba(200, 213, 185, 0.3);
+}
+
+.back-button:hover {
+  background: rgba(200, 213, 185, 0.3);
+  color: #fff;
+}
+
+
+.contact-container {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
+  color: #fff;
+  text-align: center;
+}
+
+.contact-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #e8f4ea;
+}
+
+.contact-methods {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin: 3rem 0;
+}
+
+.contact-card {
+  background: rgba(72, 91, 57, 0.7);
+  padding: 2rem;
+  border-radius: 10px;
+  flex: 1;
+  min-width: 250px;
+  max-width: 300px;
+  transition: transform 0.3s;
+}
+
+.contact-card:hover {
+  transform: translateY(-5px);
+}
+
+.contact-card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #c8d5b9;
+}
+
+.contact-card p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.contact-note {
+  margin-top: 3rem;
+  padding: 1.5rem;
+  background: rgba(58, 90, 64, 0.5);
+  border-radius: 8px;
+  font-size: 1.1rem;
+}
+
+
+@media (max-width: 768px) {
+  .contact-container h1 {
+    font-size: 2rem;
+  }
+  
+  .contact-card {
+    min-width: 100%;
+  }
+  
+  .contact-navigation {
+    padding: 1rem;
+  }
+  
+  .logo-img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .back-button {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+  }
+}
