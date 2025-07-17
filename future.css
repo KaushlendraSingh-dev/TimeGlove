@@ -111,3 +111,57 @@ body, html {
     font-size: 1rem;
   }
 }
+.doc-download {
+  text-align: center;
+  padding: 3rem 2rem;
+  background-color: rgba(0, 0, 40, 0.6);
+  border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+.doc-download h2 {
+  color: #00bfff;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.doc-download p {
+  color: #ccc;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
+
+.btn-download {
+  padding: 0.8rem 1.6rem;
+  background-color: #00bfff;
+  color: #000;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: 0.3s;
+  border: 2px solid #00bfff;
+}
+
+.btn-download:hover {
+  background-color: transparent;
+  color: #00bfff;
+}
+/* === Go to Top Button === */
+.go-top-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  width: 69px;
+  height: 69px;
+  cursor: pointer;
+}
+
+.go-top-img {
+  width: 100%;
+  height: 100%;
+  transition: 0.3s ease;
+}
+
+.go-top-img:hover {
+  content: url('gototop2.png'); 
+}
